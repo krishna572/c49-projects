@@ -1,0 +1,44 @@
+
+            h1{
+                color:red;
+                background: rgba(100, 40, 0, 0.404);
+            }
+
+            p{
+                color: pink;
+                background: rgba(100, 40, 0, 0.404);
+            }
+            .video{
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                min-width: 100%;
+                min-height: 100%;
+                width: auto;
+                z-index: -1;
+            }
+            
+
+            .grid {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                background: rgba(0, 0,100, 0.4);
+            }
+            .footer{
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .grid h2{
+                
+            }
+
+            body{
+                background:gray;
+            }
+            p,h2{
+                text-align: center;
+            }
+
+            
